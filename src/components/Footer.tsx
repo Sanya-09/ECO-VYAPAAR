@@ -18,18 +18,20 @@ const Footer = () => {
       { name: 'About Us', href: '#about' },
       { name: 'Our Story', href: '#' },
       { name: 'Careers', href: '#' },
+      { name: 'Press', href: '#' },
       { name: 'Contact', href: '#' }
     ],
     platform: [
       { name: 'For Vendors', href: '#' },
       { name: 'For Suppliers', href: '#' },
       { name: 'Pricing', href: '#' },
-      { name: 'Features', href: '#features' }
-      
+      { name: 'Features', href: '#features' },
+      { name: 'API Documentation', href: '#' }
     ],
     support: [
       { name: 'Help Center', href: '#' },
       { name: 'Safety Guidelines', href: '#' },
+      { name: 'Community', href: '#' },
       { name: 'Reports', href: '#' },
       { name: 'Feedback', href: '#' }
     ],
@@ -37,6 +39,7 @@ const Footer = () => {
       { name: 'Privacy Policy', href: '#' },
       { name: 'Terms of Service', href: '#' },
       { name: 'Cookie Policy', href: '#' },
+      { name: 'GDPR', href: '#' },
       { name: 'Refund Policy', href: '#' }
     ]
   };
@@ -93,7 +96,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary-foreground/60" />
-                <span className="text-sm text-primary-foreground/80">+91 XXXXX XXXXX</span>
+                <span className="text-sm text-primary-foreground/80">+91 xxxx xxxx</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-primary-foreground/60" />
@@ -101,7 +104,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-primary-foreground/60" />
-                <span className="text-sm text-primary-foreground/80">India</span>
+                <span className="text-sm text-primary-foreground/80">Mumbai, Maharashtra, India</span>
               </div>
             </div>
           </div>
